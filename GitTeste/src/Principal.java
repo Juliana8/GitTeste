@@ -1,6 +1,8 @@
+import javax.swing.JOptionPane;
+
 
 public class Principal {
      public static void main(String [] args){
-    	 System.out.println("Hello Murilo");
+    	JOptionPane.showMessageDialog(null,"Hello Murilo","Teste",JOptionPane.INFORMATION_MESSAGE);
      }
 }
